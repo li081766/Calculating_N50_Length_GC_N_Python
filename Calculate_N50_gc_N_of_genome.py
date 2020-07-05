@@ -29,7 +29,7 @@ def get_parser():
 
 	required.add_argument(
 	    '-o', '--out', dest = 'out', required = True, metavar = 'OUTPUT',
-	    help = 'Output folders and files will be labelled with this name. WARNING: do not provide a path')
+	    help = 'Output file will be labelled with this name. WARNING: do not provide a path')
 
 	required.add_argument(
 	    '-m', '--mode', dest = 'mode', required = True, metavar = 'MODE',
