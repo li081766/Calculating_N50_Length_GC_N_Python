@@ -2,6 +2,8 @@
 
 Calculate_N50_gc_N_of_genome.py
 
+
+```
 usage: python3 Calculate_N50_gc_N_of_genome.py -i <genome.fa/genome.fa.gz> -o <output.txt> -m <N50|len>
 
 This script is used to calculate the scaffold length, N50, GC% and N% of the genome.
@@ -18,3 +20,4 @@ required arguments:
 
 optional arguments:
   -h, --help            Show this help message and exit
+  ```
