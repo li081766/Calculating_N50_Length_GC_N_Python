@@ -34,8 +34,8 @@ def get_parser():
 	required.add_argument(
 	    '-m', '--mode', dest = 'mode', required = True, metavar = 'MODE',
 	    help = 'Specify which analysis mode to run.\n'
-	  	       'There are two valid modes:\n- len for caculating the length, GC%%, and N%% of each scaffold or genome\n'
-	           '- N50 for calcuting the scaffold N50 of the genome')
+	  	       'There are two valid modes:\n- len for calculating the length, GC%%, and N%% of each scaffold or genome\n'
+	           '- N50 for calculating the scaffold N50 of the genome')
 
 	optional.add_argument('-h', '--help', action = "help", help = "Show this help message and exit")
 
