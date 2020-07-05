@@ -12,7 +12,7 @@ required arguments:
   -i FASTA FILE, --in FASTA FILE
                         Input sequence file in FASTA format
   -o OUTPUT, --out OUTPUT
-                        Output folders and files will be labelled with this name. WARNING: do not provide a path
+                        Output file will be labelled with this name. WARNING: do not provide a path
   -m MODE, --mode MODE  Specify which analysis mode to run.
                         There are two valid modes:
                         -m len for caculating the length, GC%, and N% of each scaffold or genome
