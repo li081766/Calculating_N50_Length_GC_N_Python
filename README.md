@@ -15,8 +15,8 @@ required arguments:
                         Output file will be labelled with this name. WARNING: do not provide a path
   -m MODE, --mode MODE  Specify which analysis mode to run.
                         There are two valid modes:
-                        -m len for caculating the length, GC%, and N% of each scaffold or genome
-                        -m N50 for calcuting the scaffold N50 of the genome
+                        -m len for calculating the length, GC%, and N% of each scaffold or genome
+                        -m N50 for calculating the scaffold N50 of the genome
 
 optional arguments:
   -h, --help            Show this help message and exit
